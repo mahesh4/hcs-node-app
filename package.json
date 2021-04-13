@@ -1,0 +1,34 @@
+{
+  "name": "hcs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js",
+    "dev:start": "clear; nodemon --exec babel-node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "install": "^0.13.0",
+    "log4js": "^6.3.0",
+    "mongoose": "^5.12.0",
+    "multer": "^1.4.2",
+    "node-cron": "^3.0.0",
+    "node-schedule": "^2.0.0",
+    "nodemon": "^2.0.7",
+    "npm": "^7.6.3",
+    "simple-node-logger": "^18.12.24",
+    "stream": "0.0.2",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/preset-env": "^7.13.10"
+  }
+}
